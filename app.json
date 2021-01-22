@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "expoteste",
+    "slug": "expoteste",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "primaryColor":"#FFFFFF",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "pt.outdarelab.expoteste",
+      "buildNumber": "1.1",
+      "supportsTablet": true,
+      "infoPlist":{
+        "CFBundleAllowMixedLocalizations": true
+      }
+    },
+    "android": {
+      "package": "com.outdare.expoteste",
+      "useNextNotificationsApi": true,
+      "versionCode": 8,
+      "icon":"./assets/ic_launcher_round.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher_foreground.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "notification": {
+      "icon": "./assets/not.png",
+      "color": "#002C56",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    }
+  }
+}
